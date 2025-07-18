@@ -4,22 +4,16 @@
   "profilePicture": "/profile-picture.jpg",
   "url": "https://salud.goalritmo.com",
   "blog": true,
-  "iconLinks": [
-    {
-      "id": "1750397736741",
-      "icon": "youtube",
-      "url": "https://www.youtube.com/watch?v=5hhMMzI49vQ"
-    }
-  ],
+  "iconLinks": [],
   "customLinks": [
     {
       "id": "1728534585737",
-      "title": "⚽ Grilla de Deportes (2025)",
+      "title": "⚽ Grilla de Deportes",
       "url": "https://www.unc.edu.ar/vida-estudiantil/deportes-unc-2025"
     },
     {
       "id": "1728534585740",
-      "title": "💪 Horarios del Gimnasio (2025)",
+      "title": "💪 Horarios del Gimnasio",
       "url": "https://www.instagram.com/p/DIe5x1qyWiG/"
     },
     {
@@ -29,7 +23,7 @@
     },
     {
       "id": "1728534585741",
-      "title": "🍎 Comedor Universitario (2025)",
+      "title": "🍎 Comedor Universitario",
       "url": "https://www.unc.edu.ar/vida-estudiantil/comedor-universitario-2025"
     },
     {
