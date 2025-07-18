@@ -1,0 +1,41 @@
+{
+  "name": "Yendo al ritmo",
+  "bio": "saludable de la UNC",
+  "profilePicture": "/profile-picture.jpg",
+  "url": "https://salud.goalritmo.com",
+  "blog": true,
+  "iconLinks": [
+    {
+      "id": "1750397736741",
+      "icon": "youtube",
+      "url": "https://www.youtube.com/watch?v=5hhMMzI49vQ"
+    }
+  ],
+  "customLinks": [
+    {
+      "id": "1728534585737",
+      "title": "⚽ Grilla de Deportes (2025)",
+      "url": "https://autogestion.guarani.unc.edu.ar/"
+    },
+    {
+      "id": "1728534585740",
+      "title": "💪 Horarios del Gimnasio (2025)",
+      "url": "https://www.instagram.com/p/DIe5x1qyWiG/"
+    },
+    {
+      "id": "1728534585738",
+      "title": "🤝 Obra Social PASOS",
+      "url": "https://www.unc.edu.ar/vida-estudiantil/pasos"
+    },
+    {
+      "id": "1728534585741",
+      "title": "🍎 Comedor Universitario (2025)",
+      "url": "https://www.unc.edu.ar/vida-estudiantil/comedor-universitario-2025"
+    },
+    {
+      "id": "1728534585741",
+      "title": "❤ Turno para Donar Sangre",
+      "url": "https://bancodesangre.turnos.unc.edu.ar/"
+    }
+  ]
+}
