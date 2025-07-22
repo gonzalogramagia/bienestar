@@ -4,9 +4,10 @@ import { Image } from "astro:assets";
 import { SITE } from "@/siteConfig";
 
 import profilePicture from "@/assets/profile-picture.jpg";
+import ajedrezImage from "@/assets/ajedrez.png";
 ---
 
-<div class="mt-8 py-4">
+<div class="mt-8 pt-4 pb-2">
   <a href="https://goalritmo.com" class="block">
     <Image
       src={profilePicture}
@@ -32,6 +33,21 @@ import profilePicture from "@/assets/profile-picture.jpg";
       class="pt-8 text-lg font-medium uppercase text-lightModeForegroundMuted underline underline-offset-4 hover:text-lightModeForeground dark:text-darkModeForegroundMuted dark:hover:text-darkModeForeground"
     >
       {`Volver a la Raíz`}
+    </a>
+  </div>
+  
+  <!-- Imagen de Ajedrez -->
+  <div class="text-center pt-6">
+    <a href="https://ajedrez.goalritmo.com" class="block">
+      <Image
+        src={ajedrezImage}
+        alt="Ajedrez"
+        height={200}
+        width={800}
+        loading="lazy"
+        draggable="false"
+        class="mx-auto w-full rounded-lg border-2 border-gray-300 dark:border-gray-600 shadow-md"
+      />
     </a>
   </div>
 </div>
