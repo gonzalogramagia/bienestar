@@ -7,10 +7,13 @@ const post = entry as CollectionEntry<"blog">;
 
 const postTitle = post.data.title || SITE.name;
 const postDescription = post.data.description || SITE.bio;
+
+// Si el título es "Alice in Wonderland", no agregar el sufijo del sitio
+const fullTitle = postTitle === "Alice in Wonderland" ? postTitle : `${postTitle} | ${SITE.name}`;
 ---
 
-<title>{`${postTitle} | ${SITE.name}`}</title>
-<meta name="title" content={`${postTitle} | ${SITE.name}`} />
+<title>{fullTitle}</title>
+<meta name="title" content={fullTitle} />
 <meta name="description" content={postDescription} />
 <link rel="canonical" href={SITE.url} />
 
