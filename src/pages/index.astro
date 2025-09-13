@@ -9,10 +9,12 @@ import Content from "@/components/Content.astro";
 import Post from "@/components/Post.astro";
 import SeoPage from "@/components/SeoPage.astro";
 
-const posts = (await getCollection("blog")).sort(
-  (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
-    b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf(),
-);
+const posts = (await getCollection("blog"))
+  .filter((post) => post.data.title !== "Alice in Wonderland")
+  .sort(
+    (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
+      b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf(),
+  );
 ---
 
 <BaseLayout>
